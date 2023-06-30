@@ -12,7 +12,7 @@ public class exercicio3 {
 		int numero, numGerado, numTentativas;
 		numTentativas = 1;
 		Random gerador = new Random();
-		numGerado = gerador.nextInt(100)+1;
+		numGerado = gerador.nextInt(100) + 1;
 		System.out.println("Adivinhe o número que foi gerado!");
 		numero = sc.nextInt();
 		// System.out.println(numGerado);
@@ -27,7 +27,7 @@ public class exercicio3 {
 			numero = sc.nextInt();
 		}
 		System.out.println("Parabéns,  o número informado é igual número gerado ");
-		System.out.println("Numero de tentativas"+numTentativas);
+		System.out.println("Numero de tentativas" + numTentativas);
 
 	}
 
