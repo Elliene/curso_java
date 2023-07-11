@@ -25,6 +25,6 @@ public class Veiculo {
 		} else if (velocidadeVeiculo < velocidadeMaxima) {
 			System.out.println("você esta abaixo da velocidade maxima de " + velocidadeMaxima + "KM/h");
 		}
-	}
+	}	
 
 }
