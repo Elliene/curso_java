@@ -17,7 +17,10 @@ public class MainScore {
 		System.out.println("Team with highest score: " + playerWithMaxScore);
 	}
 
-
+	private static String getTeamWithHighestScore(Map<String, Integer> scores) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
 
