@@ -2,6 +2,7 @@ package aula7calculadoraarmazenamento;
 
 import java.util.List;
 
+
 import aula7calculadoraframework.Divisao;
 import aula7calculadoraframework.Expo;
 import aula7calculadoraframework.Multiplicacao;
@@ -11,12 +12,16 @@ import aula7calculadoraframework.Percent;
 import aula7calculadoraframework.Soma;
 import aula7calculadoraframework.Subtracao;
 import aula7calculadoraframework.Valor;
+import unb.br.curso.aula8.exercicio1.CalculadoraSimpleFatory;
+import unb.br.curso.aula8.exercicio2.ArmazenamentoMeuBanco;
 
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		//Armazenamento armazenamento = new ArmazenamentoArquivo();
-		Armazenamento armazenamento = new ArmazenamentoH2();
-
+		//Armazenamento armazenamento = new ArmazenamentoH2();
+		//Armazenamento armazenamento = new ArmazenamentoMeuBanco();
+		Armazenamento armazenamento = CalculadoraSimpleFatory.createArmazenamento(CalculadoraSimpleFatory.ARQ);
+		
 		// Expresões a serem armazenadas
 		String expressao1 = "(5 + (10 / 2))";
 		String expressao2 = "(3 * (8 + 2))";

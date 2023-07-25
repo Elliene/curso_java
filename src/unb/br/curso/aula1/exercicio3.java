@@ -1,4 +1,4 @@
-package unb.br.curso.exercicio01;
+package unb.br.curso.aula1;
 
 import java.util.Scanner;
 import java.util.Random;
